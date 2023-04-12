@@ -12,7 +12,7 @@ Usage example:
         Property("foo_or_bar", StringType, allowed_values=["foo", "bar"]),
         Property(
             "permissions",
-            ArrayType(th.StringType),
+            ArrayType(StringType),
             allowed_values=["create", "delete", "insert", "update"],
             examples=["insert", "update"],
         ),
